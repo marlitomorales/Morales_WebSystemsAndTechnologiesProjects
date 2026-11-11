@@ -1,0 +1,175 @@
+
+/* GENERAL */
+
+body {
+    background-color: #37024f;
+    font-family: Arial, sans-serif;
+    color: #e6e9f0;
+}
+
+
+/* HEADINGS */
+
+h2 {
+    color: #e6e9f0;
+    letter-spacing: -0.5px;
+}
+
+h5 {
+    color: #37024f;
+}
+
+
+/* CARDS */
+
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: none;
+}
+
+.card-body {
+    border-radius: 12px;
+    color: #1e293b;
+}
+
+
+/* BUTTONS */
+
+.btn {
+    border-radius: 7px;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.btn-warning {
+    color: #ffffff;
+    background-color: #d97706;
+    border-color: #d97706;
+}
+
+.btn-warning:hover {
+    color: #ffffff;
+    background-color: #b45309;
+}
+
+.btn-danger {
+    background-color: #dc2626;
+    border-color: #dc2626;
+}
+
+
+/* INPUTS */
+
+.form-control,
+.form-select {
+    border-radius: 7px;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    color: #1e293b;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #7c3aed;
+    box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15);
+}
+
+
+/* TABLE */
+
+.table {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #1e293b;
+}
+
+.table thead th {
+    background-color: #f1e8f7;
+    color: #37024f;
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 15px;
+    border-bottom: 2px solid #e2d2ee;
+}
+
+.table tbody td {
+    padding: 15px;
+    border-bottom: 1px solid #edf0f5;
+    color: #334155;
+}
+
+.table tbody tr:hover td {
+    background-color: #f8f3fc;
+}
+
+
+/* COURSE CHECKBOX */
+
+.form-check {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.form-check:hover {
+    background-color: #f8f3fc;
+    border-color: #7c3aed !important;
+}
+
+.form-check-input:checked {
+    background-color: #7c3aed;
+    border-color: #7c3aed;
+}
+
+
+/* LINKS */
+
+a {
+    color: #2563eb;
+}
+
+a:hover {
+    color: #1d4ed8;
+}
+
+
+/* TEXT */
+
+.text-muted {
+    color: #64748b !important;
+}
+
+
+/* ALERTS */
+
+.alert {
+    border-radius: 8px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .container-fluid {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .table {
+        font-size: 12px;
+    }
+
+}
